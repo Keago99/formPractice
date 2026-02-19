@@ -9,6 +9,14 @@
     --dark-wood: #5a3e2b;
 }
 
+:valid{
+     border: 3px solid green; 
+}
+
+:invalid{
+    border: 3px solid red;
+}
+
 body{
     height: 100vh;
     background-color: var(--parchment);
@@ -34,7 +42,7 @@ h1{
     grid-auto-rows: 40px;
     padding: 8px 8px;
     width: 350px;
-    height: 200px;
+    height: 250px;
         /* Inset groove border for carved effect */
     border: 8px groove var(--dark-wood);
     border-radius: 5px;

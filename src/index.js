@@ -1,4 +1,5 @@
 import './styles.css';
+import { passwordValidation } from './scripts.js';
 
 
-console.log("testo besto !");
+  passwordValidation();

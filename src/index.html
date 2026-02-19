@@ -14,16 +14,19 @@
     <main>
         <form id="mainForm">
             <label for="email_address">Email:</label>
-            <input type="email" id="email_address">
+            <input type="email" id="email_address" required placeholder="Please enter email">
 
             <label for="country">Country:</label>
-            <input type="text" id="country">
+            <input type="text" id="country" required placeholder="Please enter country">
             
             <label for="postal_code">Postal Code:</label>
-            <input type="text" id="postal_code">
+            <input type="text" id="postal_code" required placeholder="Please enter postal code">
 
             <label for="password">Password:</label>
-            <input type="password" id="password">
+            <input type="password" id="password" required placeholder="Please enter password" minlength="5" maxlength="30">
+
+            <label for="passwordConfirm">Confirm Password:</label>
+            <input type="password" id="passwordConfirm" required placeholder="Please confirm password" minlength="5" maxlength="30">
         </form>
 
     </main>
